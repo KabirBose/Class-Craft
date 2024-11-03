@@ -1,4 +1,5 @@
 import styles from "./page.module.css";
+import RedirectButton from "../components/RedirectButton/RedirectButton";
 
 export default function Page() {
   return (
@@ -10,6 +11,11 @@ export default function Page() {
         <span className="highlight-green">responsive</span>{" "}
         <span className="highlight-red">drag-and-drop</span> interface.
       </h2>
+
+      <div>
+        <RedirectButton text="Get Started" />
+      </div>
+
       <p className={styles["powered-by"]}>Powered by: Schedule-X & React</p>
     </div>
   );
