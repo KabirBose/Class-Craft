@@ -3,3 +3,29 @@ body {
   color: white;
   font-family: var(--font-geist-sans);
 }
+
+h1 {
+  font-weight: 700;
+}
+h2 {
+  font-weight: 500;
+}
+
+.highlight-red {
+  color: rgb(255, 0, 100);
+  background-color: rgba(255, 0, 102, 0.25);
+  padding: 2px;
+  border-radius: 3px;
+}
+.highlight-blue {
+  color: rgb(0, 170, 255);
+  background-color: rgba(0, 170, 255, 0.25);
+  padding: 2px;
+  border-radius: 3px;
+}
+.highlight-green {
+  color: rgb(74, 225, 0);
+  background-color: rgba(74, 255, 35, 0.25);
+  padding: 2px;
+  border-radius: 3px;
+}
