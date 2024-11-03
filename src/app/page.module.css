@@ -9,3 +9,16 @@
 .powered-by {
   font-family: var(--font-geist-mono);
 }
+
+.module-container {
+  width: 70rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 30px;
+  margin: 25px 0;
+}
+.module-container > div:nth-child(5) {
+  grid-column: 1 / -1; /* Make the third item span across all columns */
+  height: 10rem;
+}
