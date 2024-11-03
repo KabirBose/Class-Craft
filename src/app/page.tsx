@@ -1,13 +1,16 @@
+import styles from "./page.module.css";
+
 export default function Page() {
   return (
-    <div>
+    <div className={styles.container}>
       <h1>The Ultimate Schedule Builder</h1>
       <h2>
-        No more frustration when choosing your classes, just a{" "}
-        <span className="highlight-blue">simple</span> and{" "}
+        Take away the stress of course selection day with our{" "}
+        <span className="highlight-blue">simple</span>{" "}
         <span className="highlight-green">responsive</span>{" "}
         <span className="highlight-red">drag-and-drop</span> interface.
       </h2>
+      <p className={styles["powered-by"]}>Powered by: Schedule-X & React</p>
     </div>
   );
 }
