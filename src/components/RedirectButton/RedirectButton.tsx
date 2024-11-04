@@ -3,13 +3,19 @@ import Link from "next/link";
 
 interface Props {
   text: string;
+  url: string;
   textColor?: string;
   bgColor?: string;
 }
 
-export default function RedirectButton({ text, textColor, bgColor }: Props) {
+export default function RedirectButton({
+  text,
+  textColor,
+  bgColor,
+  url,
+}: Props) {
   return (
-    <Link href="/register" className={styles.link}>
+    <Link href={url} className={styles.link}>
       <p
         className={styles.text}
         style={{ backgroundColor: bgColor, color: textColor }}

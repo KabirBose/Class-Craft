@@ -2,11 +2,12 @@ body {
   background-color: black;
   color: white;
   font-family: var(--font-geist-sans);
+  min-height: 100vh;
 }
 
 h1 {
   font-weight: 700;
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 h2 {
   font-weight: 500;
