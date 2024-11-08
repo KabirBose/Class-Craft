@@ -7,12 +7,12 @@ export default function Page() {
     <div className={styles.container}>
       <div className={styles["text-container"]}>
         <h1>The Ultimate Schedule Builder</h1>
-        <h2>
+        <h3>
           Take away the stress of course selection day with our{" "}
           <span className="highlight-blue">simple</span>{" "}
           <span className="highlight-green">responsive</span>{" "}
           <span className="highlight-red">drag-and-drop</span> interface.
-        </h2>
+        </h3>
       </div>
 
       <RedirectButton text="Get Started" url="/auth" />
