@@ -1,5 +1,5 @@
 import styles from "./page.module.css";
-import RedirectButton from "../components/RedirectButton/RedirectButton";
+import RedirectButton from "@/components/RedirectButton/RedirectButton";
 import DescriptionModule from "@/components/DescriptionModule/DescriptionModule";
 
 export default function Page() {
