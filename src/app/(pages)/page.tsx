@@ -15,7 +15,7 @@ export default function Page() {
         </h2>
       </div>
 
-      <RedirectButton text="Get Started" url="/get-started" />
+      <RedirectButton text="Get Started" url="/auth" />
 
       <div className={styles["module-container"]}>
         <DescriptionModule
